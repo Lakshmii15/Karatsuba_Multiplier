@@ -31,17 +31,6 @@ Final result:
 Result = (P1 << 16) + (P3 << 8) + P2
 ```
 
-## File Structure
-```
-/karatsuba_multiplier
-│── src/
-│   │── karatsuba_multiplier.v  # Main Karatsuba multiplier module
-│   │── karatsuba_testbench.v   # Testbench for simulation
-│── README.md  # Project documentation
-│── Makefile   # Script for automation (if applicable)
-│── reports/   # Performance and resource usage reports
-```
-
 ## How to Run
 ### Simulation
 Use any Verilog simulator like ModelSim, Icarus Verilog, or Vivado:
